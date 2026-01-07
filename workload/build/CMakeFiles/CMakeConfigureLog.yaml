@@ -6638,8 +6638,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-yxox75"
-      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-yxox75"
+      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-a7ahr7"
+      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-a7ahr7"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -6649,21 +6649,21 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-yxox75'
+        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-a7ahr7'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_0d741/fast
-        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_0d741.dir/build.make CMakeFiles/cmTC_0d741.dir/build
-        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-yxox75'
-        Building C object CMakeFiles/cmTC_0d741.dir/CMakeCCompilerABI.c.obj
-        "C:/Program Files/LLVM/bin/clang.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0d741.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_0d741.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_0d741.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c
-        Linking C executable cmTC_0d741.exe
-        "C:/Program Files/LLVM/bin/clang.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_0d741.dir/objects1.rsp -o cmTC_0d741.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0d741.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-yxox75/cmTC_0d741.pdb -Xlinker /version:0.0 
+        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_5ba5f/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_5ba5f.dir/build.make CMakeFiles/cmTC_5ba5f.dir/build
+        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-a7ahr7'
+        Building C object CMakeFiles/cmTC_5ba5f.dir/CMakeCCompilerABI.c.obj
+        "C:/Program Files/LLVM/bin/clang.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_5ba5f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_5ba5f.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_5ba5f.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c
+        Linking C executable cmTC_5ba5f.exe
+        "C:/Program Files/LLVM/bin/clang.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_5ba5f.dir/objects1.rsp -o cmTC_5ba5f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_5ba5f.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-a7ahr7/cmTC_5ba5f.pdb -Xlinker /version:0.0 
         clang version 20.1.0
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_0d741.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_0d741.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_0d741.lib /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-yxox75/cmTC_0d741.pdb /version:0.0
-        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-yxox75'
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_5ba5f.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_5ba5f.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_5ba5f.lib /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-a7ahr7/cmTC_5ba5f.pdb /version:0.0
+        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-a7ahr7'
         
       exitCode: 0
   -
@@ -6724,8 +6724,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-h67oh0"
-      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-h67oh0"
+      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-sv38pk"
+      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-sv38pk"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -6736,21 +6736,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-h67oh0'
+        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-sv38pk'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_a0d61/fast
-        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_a0d61.dir/build.make CMakeFiles/cmTC_a0d61.dir/build
-        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-h67oh0'
-        Building CXX object CMakeFiles/cmTC_a0d61.dir/CMakeCXXCompilerABI.cpp.obj
-        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a0d61.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_a0d61.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_a0d61.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_a0d61.exe
-        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_a0d61.dir/objects1.rsp -o cmTC_a0d61.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a0d61.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-h67oh0/cmTC_a0d61.pdb -Xlinker /version:0.0 
+        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_85def/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_85def.dir/build.make CMakeFiles/cmTC_85def.dir/build
+        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-sv38pk'
+        Building CXX object CMakeFiles/cmTC_85def.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_85def.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_85def.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_85def.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_85def.exe
+        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_85def.dir/objects1.rsp -o cmTC_85def.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_85def.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-sv38pk/cmTC_85def.pdb -Xlinker /version:0.0 
         clang version 20.1.0
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_a0d61.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_a0d61.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_a0d61.lib /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-h67oh0/cmTC_a0d61.pdb /version:0.0
-        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-h67oh0'
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_85def.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_85def.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_85def.lib /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-sv38pk/cmTC_85def.pdb /version:0.0
+        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-sv38pk'
         
       exitCode: 0
   -
@@ -6814,8 +6814,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-nw5ckb"
-      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-nw5ckb"
+      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-v90wq7"
+      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-v90wq7"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -6825,16 +6825,16 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-nw5ckb'
+        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-v90wq7'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_9f4fd/fast
-        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_9f4fd.dir/build.make CMakeFiles/cmTC_9f4fd.dir/build
-        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-nw5ckb'
-        Building CXX object CMakeFiles/cmTC_9f4fd.dir/feature_tests.cxx.obj
-        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_9f4fd.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_9f4fd.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_9f4fd.dir/feature_tests.cxx.obj -c D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-nw5ckb/feature_tests.cxx
-        Linking CXX executable cmTC_9f4fd.exe
-        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_9f4fd.dir/objects1.rsp -o cmTC_9f4fd.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9f4fd.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-nw5ckb/cmTC_9f4fd.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_9f4fd.dir/linkLibs.rsp
-        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-nw5ckb'
+        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_65276/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_65276.dir/build.make CMakeFiles/cmTC_65276.dir/build
+        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-v90wq7'
+        Building CXX object CMakeFiles/cmTC_65276.dir/feature_tests.cxx.obj
+        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_65276.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_65276.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_65276.dir/feature_tests.cxx.obj -c D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-v90wq7/feature_tests.cxx
+        Linking CXX executable cmTC_65276.exe
+        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_65276.dir/objects1.rsp -o cmTC_65276.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_65276.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-v90wq7/cmTC_65276.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_65276.dir/linkLibs.rsp
+        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-v90wq7'
         
       exitCode: 0
   -
@@ -6849,8 +6849,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-0yqts6"
-      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-0yqts6"
+      source: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-q6fhb6"
+      binary: "D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-q6fhb6"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -6860,16 +6860,16 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-0yqts6'
+        Change Dir: 'D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-q6fhb6'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_2b7c2/fast
-        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_2b7c2.dir/build.make CMakeFiles/cmTC_2b7c2.dir/build
-        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-0yqts6'
-        Building CXX object CMakeFiles/cmTC_2b7c2.dir/feature_tests.cxx.obj
-        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_2b7c2.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_2b7c2.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_2b7c2.dir/feature_tests.cxx.obj -c D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-0yqts6/feature_tests.cxx
-        Linking CXX executable cmTC_2b7c2.exe
-        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_2b7c2.dir/objects1.rsp -o cmTC_2b7c2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2b7c2.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-0yqts6/cmTC_2b7c2.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_2b7c2.dir/linkLibs.rsp
-        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-0yqts6'
+        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_2e867/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_2e867.dir/build.make CMakeFiles/cmTC_2e867.dir/build
+        make.exe[1]: Entering directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-q6fhb6'
+        Building CXX object CMakeFiles/cmTC_2e867.dir/feature_tests.cxx.obj
+        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_2e867.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_2e867.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_2e867.dir/feature_tests.cxx.obj -c D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-q6fhb6/feature_tests.cxx
+        Linking CXX executable cmTC_2e867.exe
+        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_2e867.dir/objects1.rsp -o cmTC_2e867.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2e867.lib -Xlinker /pdb:D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-q6fhb6/cmTC_2e867.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_2e867.dir/linkLibs.rsp
+        make.exe[1]: Leaving directory `D:/AVXsession/aom/workload/build/CMakeFiles/CMakeScratch/TryCompile-q6fhb6'
         
       exitCode: 0
   -

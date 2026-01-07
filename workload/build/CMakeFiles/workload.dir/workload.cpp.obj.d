@@ -130,6 +130,7 @@ CMakeFiles/workload.dir/workload.cpp.obj: \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\iomanip \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xlocmon \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xloctime \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string \
   D:\AVXsession\aom\aom\aom_encoder.h D:\AVXsession\aom\aom\aom_codec.h \
   D:\AVXsession\aom\aom\aom_image.h D:\AVXsession\aom\aom\aom_integer.h \
   C:\Program\ Files\LLVM\lib\clang\20\include\inttypes.h \
@@ -140,4 +141,5 @@ CMakeFiles/workload.dir/workload.cpp.obj: \
   D:\AVXsession\aom\aom\.\aom_integer.h \
   D:\AVXsession\aom\aom\.\aom_tpl.h \
   D:\AVXsession\aom\aom\.\.\aom_integer.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string
+  D:\AVXsession\aom\aom\aom_decoder.h \
+  D:\AVXsession\aom\aom\aom_frame_buffer.h D:\AVXsession\aom\aom\aomdx.h
