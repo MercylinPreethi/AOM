@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/AVXsession/aom/workload/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

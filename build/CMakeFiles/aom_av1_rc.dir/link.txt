@@ -1,0 +1,2 @@
+"C:/Program Files/LLVM/bin/llvm-ar.exe" qc aom_av1_rc.lib CMakeFiles/aom_av1_rc.dir/av1/ratectrl_rtc.cc.obj
+"C:/Program Files/LLVM/bin/llvm-ranlib.exe" aom_av1_rc.lib

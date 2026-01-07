@@ -1,0 +1,2 @@
+"C:/Program Files/LLVM/bin/llvm-ar.exe" qc aom_pc.lib CMakeFiles/aom_pc.dir/gen_src/aom_pc_no_op.c.obj
+"C:/Program Files/LLVM/bin/llvm-ranlib.exe" aom_pc.lib
