@@ -1,0 +1,106 @@
+175 [16888] INFO perfrun.launcher <> - Launcher main begin
+199 [16888] INFO perfrun.launcher <> - MessageCatalogInit finished
+200 [16888] INFO perfrun.launcher <> - Launcher instance created
+201 [16888] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 884 --option-file D:\AVXsession\aom\wrapper\vtune_dll\config\runss.options 
+282 [16888] INFO perfrun.launcher <> - New signal handler callback was added
+473 [16888] INFO perfrun.perfcollector <> - SEP tool path: C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\sep.exe
+509 [16888] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+528 [16888] INFO perfrun.launcher <> - create file finder object
+528 [16888] INFO perfrun.launcher <> - create a result directory: pattern = D:\AVXsession\aom\wrapper\vtune_dll pid = 4294967295
+538 [16888] INFO perfrun.launcher <> - create data directory = D:\AVXsession\aom\wrapper\vtune_dll\data.0
+540 [16888] INFO perfrun.launcher <> - Creating the master collection flag
+560 [16888] INFO perfrun.launcher <> - Done creating the master collection flag
+560 [25352] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+561 [25352] INFO perfrun.sdk <> - Allocating TMU :D:\AVXsession\aom\wrapper\vtune_dll\data.0\systemcollector-12652-DESKTOP-J74BDCS.sc
+563 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+571 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+572 [25352] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+572 [25352] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+572 [25352] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+572 [25352] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+572 [25352] INFO perfrun.mrte <> - system-wide mode is 0
+573 [25352] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+756 [25352] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=D:\AVXsession\aom\wrapper\vtune_dll\data.0
+756 [25352] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-J74BDCS
+756 [25352] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+756 [25352] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Users\mcw\anaconda3\condabin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python313\Scripts;C:\Python313;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\mcw\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Users\mcw\AppData\Local\Android\platform-tools;C:\Users\mcw\AppData\Local\Android\Sdk;C:\Users\mcw\AppData\Local\Android\Sdk\emulator;C:\Users\mcw\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Qualcomm\QIKTool\1.0.164.0;C:\Program Files (x86)\Qualcomm\QIKToolV3\3.0.41.1;C:\Program Files (x86)\Qualcomm\QPM-CLI\1.0.120.3;C:\Program Files (x86)\Qualcomm\QPM3\3.0.120.2;C:\msys64\mingw64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\mcw\AppData\Local\bin\NASM;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\LLVM\bin;C:\Program Files\doxygen\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\mcw\Downloads\ffmpeg-8.0.1-essentials_build\ffmpeg-8.0.1-essentials_build\bin;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64;C:\Users\mcw\AppData\Local\activestate\bin;C:\Users\mcw\AppData\Local\ActiveState\StateTool\release\bin;C:\Users\mcw\.local\bin;c:\Users\mcw\AppData\Local\Programs\cursor\resources\app\codeBin;C:\Users\mcw\AppData\Local\Android\Sdk\tools;C:\Users\mcw\AppData\Local\jdk-11.0.2\bin;C:\Users\mcw\AppData\Local\Microsoft\WindowsApps;C:\Users\mcw\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mcw\AppData\Roaming\npm;C:\Users\mcw\AppData\Local\Programs\cursor\resources\app\bin;C:\MinGW\bin;;D:\AVXsession\aom\wrapper\build
+757 [25352] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+757 [25352] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+757 [25352] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+757 [25352] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+757 [25352] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+757 [25352] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+757 [25352] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+757 [25352] INFO perfrun.mrte <> - Data directory: D:\AVXsession\aom\wrapper\vtune_dll\data.0
+757 [25352] INFO perfrun.mrte <> - Mrte plugin is initialized
+757 [25352] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+757 [25352] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+758 [25352] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+758 [25352] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+758 [25352] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+758 [25352] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+758 [25352] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+758 [25352] INFO perfrun.tpss <> - initialize tpss controller
+758 [25352] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+758 [25352] INFO perfrun.tpss <> - default obj-size-min=1024
+758 [25352] INFO perfrun.tpss <> - default hash-table-size=0
+759 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+759 [25352] INFO perfrun.launcher <> - plugin [stall_reasons] was disabled because it doesn't support the given collection type.
+759 [16888] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Users\mcw\anaconda3\condabin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python313\Scripts;C:\Python313;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\mcw\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Users\mcw\AppData\Local\Android\platform-tools;C:\Users\mcw\AppData\Local\Android\Sdk;C:\Users\mcw\AppData\Local\Android\Sdk\emulator;C:\Users\mcw\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Qualcomm\QIKTool\1.0.164.0;C:\Program Files (x86)\Qualcomm\QIKToolV3\3.0.41.1;C:\Program Files (x86)\Qualcomm\QPM-CLI\1.0.120.3;C:\Program Files (x86)\Qualcomm\QPM3\3.0.120.2;C:\msys64\mingw64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\mcw\AppData\Local\bin\NASM;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\LLVM\bin;C:\Program Files\doxygen\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\mcw\Downloads\ffmpeg-8.0.1-essentials_build\ffmpeg-8.0.1-essentials_build\bin;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64;C:\Users\mcw\AppData\Local\activestate\bin;C:\Users\mcw\AppData\Local\ActiveState\StateTool\release\bin;C:\Users\mcw\.local\bin;c:\Users\mcw\AppData\Local\Programs\cursor\resources\app\codeBin;C:\Users\mcw\AppData\Local\Android\Sdk\tools;C:\Users\mcw\AppData\Local\jdk-11.0.2\bin;C:\Users\mcw\AppData\Local\Microsoft\WindowsApps;C:\Users\mcw\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mcw\AppData\Roaming\npm;C:\Users\mcw\AppData\Local\Programs\cursor\resources\app\bin;C:\MinGW\bin;;D:\AVXsession\aom\wrapper\build
+760 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll
+761 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+761 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+761 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll
+762 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+762 [16888] INFO perfrun.launcher <> - set environment variable: CCL_ITT_LEVEL = 1
+763 [16888] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+763 [16888] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+763 [16888] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+764 [16888] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+764 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = D:\AVXsession\aom\wrapper\vtune_dll\data.0
+765 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-J74BDCS
+765 [16888] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+765 [16888] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Users\mcw\anaconda3\condabin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python313\Scripts;C:\Python313;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\mcw\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Users\mcw\AppData\Local\Android\platform-tools;C:\Users\mcw\AppData\Local\Android\Sdk;C:\Users\mcw\AppData\Local\Android\Sdk\emulator;C:\Users\mcw\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Qualcomm\QIKTool\1.0.164.0;C:\Program Files (x86)\Qualcomm\QIKToolV3\3.0.41.1;C:\Program Files (x86)\Qualcomm\QPM-CLI\1.0.120.3;C:\Program Files (x86)\Qualcomm\QPM3\3.0.120.2;C:\msys64\mingw64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\mcw\AppData\Local\bin\NASM;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\LLVM\bin;C:\Program Files\doxygen\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\mcw\Downloads\ffmpeg-8.0.1-essentials_build\ffmpeg-8.0.1-essentials_build\bin;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64;C:\Users\mcw\AppData\Local\activestate\bin;C:\Users\mcw\AppData\Local\ActiveState\StateTool\release\bin;C:\Users\mcw\.local\bin;c:\Users\mcw\AppData\Local\Programs\cursor\resources\app\codeBin;C:\Users\mcw\AppData\Local\Android\Sdk\tools;C:\Users\mcw\AppData\Local\jdk-11.0.2\bin;C:\Users\mcw\AppData\Local\Microsoft\WindowsApps;C:\Users\mcw\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mcw\AppData\Roaming\npm;C:\Users\mcw\AppData\Local\Programs\cursor\resources\app\bin;C:\MinGW\bin;;D:\AVXsession\aom\wrapper\build
+766 [16888] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+766 [16888] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+767 [16888] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+767 [16888] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+768 [16888] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+768 [16888] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+768 [16888] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+769 [16888] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+794 [16888] INFO perfrun.sdk <> - IProcessUtil: the given executable 'test.exe' is valid.
+795 [16888] INFO perfrun.launcher <> - Launcher: command line to start before modification = test.exe
+802 [16888] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.8\bin64\pin.exe -error_file D:\AVXsession\aom\wrapper\vtune_dll\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\tpsstool.dll -server_name tpss_ipc.12652 -prd_dir C:\Program Files (x86)\Intel\oneAPI\vtune\2025.8 -- test.exe
+802 [16888] INFO perfrun.launcher <> - ProcessCreator object was created
+815 [16888] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+833 [25352] INFO perfrun.itt <> - start itt controller for pid #15220
+835 [25352] INFO perfrun.tpss <> - start tpss controller for pid #15220
+897 [16888] INFO perfrun.launcher <> - Launcher: all plugins were started
+897 [16888] INFO perfrun.launcher <> - DirectoryMonitor object was created
+897 [16888] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+897 [16888] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+897 [16888] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+898 [16888] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+922 [16888] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+79779 [16888] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+79825 [25352] INFO perfrun.itt <> - detach itt controller
+79826 [25352] INFO perfrun.itt <> - detach itt controller done
+79826 [25352] INFO perfrun.tpss <> - stop tpss controller
+79828 [25352] INFO perfrun.sdk <> - De-allocating TMU: D:\AVXsession\aom\wrapper\vtune_dll\data.0\systemcollector-12652-DESKTOP-J74BDCS.sc
+79853 [25352] INFO perfrun.system <> - closed the system trace file: D:\AVXsession\aom\wrapper\vtune_dll\data.0\systemcollector-12652-DESKTOP-J74BDCS.sc
+79853 [16888] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+79853 [16888] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+79854 [16888] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+79854 [16888] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+79855 [16888] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+79858 [16888] INFO perfrun.launcher <> - Application exit code: 0
+79858 [16888] INFO perfrun.launcher <> - Exit code: 0

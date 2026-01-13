@@ -1,0 +1,7 @@
+D:/AVXsession/aom/wrapper/build/CMakeFiles/aom_wrapper.dir
+D:/AVXsession/aom/wrapper/build/CMakeFiles/edit_cache.dir
+D:/AVXsession/aom/wrapper/build/CMakeFiles/rebuild_cache.dir
+D:/AVXsession/aom/wrapper/build/CMakeFiles/list_install_components.dir
+D:/AVXsession/aom/wrapper/build/CMakeFiles/install.dir
+D:/AVXsession/aom/wrapper/build/CMakeFiles/install/local.dir
+D:/AVXsession/aom/wrapper/build/CMakeFiles/install/strip.dir
