@@ -41,10 +41,7 @@ int main() {
 
     encode_params.verbose = 1;      
     
-    // ========================================
-    // PRINT CONFIGURATION
-    // ========================================
-    
+   
     std::cout << "Encode Configuration:\n";
     std::cout << "  Resolution: ";
     if (encode_params.width == 0) {
@@ -84,14 +81,11 @@ int main() {
     std::cout << "  Verbose: " << encode_params.verbose << "\n";
     std::cout << "\n";
     
-    // ========================================
-    // ENCODE WITH CUSTOM PARAMS
-    // ========================================
     
     int result = aom_encode(
         "C:/Users/mcw/Downloads/Bosphorus_1920x1080_120fps_420_8bit_YUV_RAW/Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv",
         "test_output.ivf",
-        &encode_params  // Pass custom config
+        &encode_params  
     );
     
     if (result == AOM_WRAPPER_OK) {
@@ -101,30 +95,20 @@ int main() {
         return 1;
     }
     
-    // ============================================================================
-    // DECODING WITH CUSTOM CONFIGURATION
-    // ============================================================================
     
     std::cout << "Testing DECODE with custom config...\n";
     std::cout << "----------------------------------------\n";
     
     // Create decode configuration struct
     AomDecodeParams decode_params;
-    aom_decode_params_default(&decode_params);  // Start with defaults
+    aom_decode_params_default(&decode_params); 
     
-    // ========================================
-    // CUSTOMIZE DECODE SETTINGS HERE!
-    // ========================================
     
-    // Number of frames to decode (0 = all frames)
     decode_params.frames = 0;       // Decode all frames
     
-    // Verbosity: 0 = quiet, 1 = normal, 2 = verbose
+   
     decode_params.verbose = 1;      // Normal logging
-    
-    // ========================================
-    // PRINT CONFIGURATION
-    // ========================================
+ 
     
     std::cout << "Decode Configuration:\n";
     std::cout << "  Frames: ";
@@ -136,10 +120,7 @@ int main() {
     std::cout << "\n";
     std::cout << "  Verbose: " << decode_params.verbose << "\n";
     std::cout << "\n";
-    
-    // ========================================
-    // DECODE WITH CUSTOM PARAMS
-    // ========================================
+
     
     result = aom_decode(
         "test_output.ivf",
@@ -154,9 +135,7 @@ int main() {
         return 1;
     }
     
-    // ============================================================================
-    // SUMMARY
-    // ============================================================================
+    
     
     std::cout << "========================================\n";
     std::cout << "[SUCCESS] All tests passed!\n";

@@ -1,6 +1,3 @@
-// aom_wrapper.h - Simple AOM AV1 Encoder/Decoder Interface
-// Public API for encoding and decoding with minimal arguments
-
 #ifndef AOM_WRAPPER_H
 #define AOM_WRAPPER_H
 
@@ -8,9 +5,6 @@
 extern "C" {
 #endif
 
-// ============================================================================
-// Platform-specific DLL export/import
-// ============================================================================
 #ifdef _WIN32
     #ifdef AOM_WRAPPER_EXPORTS
         #define AOM_WRAPPER_API __declspec(dllexport)
@@ -21,9 +15,7 @@ extern "C" {
     #define AOM_WRAPPER_API __attribute__((visibility("default")))
 #endif
 
-// ============================================================================
-// Return Codes
-// ============================================================================
+
 typedef enum {
     AOM_WRAPPER_OK = 0,
     AOM_WRAPPER_ERROR_INPUT_FILE = -1,
@@ -88,14 +80,14 @@ AOM_WRAPPER_API int aom_roundtrip_simple(
 // ============================================================================
 
 typedef struct {
-    int width;           // Video width (0 = auto-detect)
-    int height;          // Video height (0 = auto-detect)
-    int fps;             // Frame rate (0 = default 30)
-    int frames;          // Number of frames to encode (0 = all)
-    int bitrate;         // Target bitrate in kbps (0 = default 2000)
-    int cpu_used;        // CPU preset 0-8 (0 = slowest/best, 8 = fastest/worst)
-    int threads;         // Number of threads (0 = auto)
-    int verbose;         // Verbose logging (0 = quiet, 1 = normal, 2 = verbose)
+    int width;          
+    int height;          
+    int fps;           
+    int frames;          
+    int bitrate;         
+    int cpu_used;        
+    int threads;         
+    int verbose;         
 } AomEncodeParams;
 
 /**
@@ -108,10 +100,10 @@ AOM_WRAPPER_API void aom_encode_params_default(AomEncodeParams* params);
 /**
  * Encode with custom parameters
  * 
- * @param input_yuv_path  Path to input YUV file
- * @param output_ivf_path Path to output IVF file
- * @param params          Encoding parameters (NULL for defaults)
- * @return AOM_WRAPPER_OK on success, error code otherwise
+ * @param input_yuv_path 
+ * @param output_ivf_path 
+ * @param params          
+ * @return
  */
 AOM_WRAPPER_API int aom_encode(
     const char* input_yuv_path,
@@ -124,8 +116,8 @@ AOM_WRAPPER_API int aom_encode(
 // ============================================================================
 
 typedef struct {
-    int frames;          // Number of frames to decode (0 = all)
-    int verbose;         // Verbose logging (0 = quiet, 1 = normal, 2 = verbose)
+    int frames;         
+    int verbose;         
 } AomDecodeParams;
 
 /**
@@ -187,4 +179,4 @@ AOM_WRAPPER_API int aom_detect_resolution(
 }
 #endif
 
-#endif // AOM_WRAPPER_H
+#endif
