@@ -1,0 +1,3 @@
+D:/AVXsession/aom/workload/build/CMakeFiles/workload.dir
+D:/AVXsession/aom/workload/build/CMakeFiles/edit_cache.dir
+D:/AVXsession/aom/workload/build/CMakeFiles/rebuild_cache.dir
